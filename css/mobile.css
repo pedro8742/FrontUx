@@ -1,0 +1,8 @@
+/* Adapte os estilos conforme necessário */
+@media screen and (max-width: 600px) {
+  /* Estilos para telas pequenas */
+}
+
+@media screen and (min-width: 601px) {
+  /* Estilos para telas maiores */
+}
