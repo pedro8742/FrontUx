@@ -2,3 +2,7 @@
 @import "./header.css";
 @import "./mobile.css";
 @import "./footer.css";
+@font-face {
+    font-family: 'baloo';
+    src: url(./fonte/BalooBhai2-VariableFont_wght.ttf);
+}
