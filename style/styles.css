@@ -1,0 +1,5 @@
+@import "./Home.css";
+@font-face{
+    font-family: 'baloo';
+    src: url(./fonte/baloo.bhai-regular.ttf);
+}
