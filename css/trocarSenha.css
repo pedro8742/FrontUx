@@ -7,7 +7,6 @@ width: 100%;
     width: 50%;
     height: 75vh;
     margin: 3%;
-
     display: block;
     color: white;
     background-color: #87CEEB;
@@ -19,11 +18,12 @@ width: 100%;
 .login-box h2 {
     font-size: 2.5rem;
     margin-top: 3%;
+    padding-bottom: 6%;
     color: black;
 }
 
 .login-box form div {
-    margin-top: 10%;
+    margin-top: 3%;
 
 }
 #label{
@@ -55,41 +55,3 @@ width: 100%;
     font-size: 1.7rem;
 }
 
-.promo{
-    width: 50%;
-    margin: 5% 3% 3% 3%; 
-    display: block;
-    color:black;
-    font-size: 1.7rem;
-    border-radius: 20px;
-    text-align: center;
-    align-items: center;
-    position: relative;
-}
-#entrarPromo {
-    color: black;
-    width: 100%;
-    padding: 1% 35%;
-    background-color: #A8D5BA;
-    border-radius: 10px;
-
- 
-}
-#span1{
-    font-size:3rem ;
-    font-weight: 600;
-    color: #F0000a;
-    
-}
-#span2{
-    font-size:3rem ;
-    font-weight: 600;
-    color: #1BCD0C;
-}
-.trocaSenha{
-    width: 30px;
-    height: 30px;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 1rem;
-}
