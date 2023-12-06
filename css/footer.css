@@ -2,7 +2,7 @@
   width: 100%;
   background-color: #432957;
   background-size: 100%;
-  height: 10%;
+  height: 100%;
 }
 
 .contianer--lista--link {
@@ -15,7 +15,7 @@
 
 .lista {
   padding: 5% 0%;
- 
+
 }
 
 .lista--link {
@@ -31,6 +31,7 @@
   color: #87CEEB;
   font-weight: 500;
 }
+
 .lista--link:active {
   color: #ffe794;
   font-weight: 500;
@@ -68,10 +69,43 @@
   color: #eceaea;
   font-weight: 500;
 }
+
 .ultimo--texto {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.4em;
   font-weight: 600;
   color: #eceaea;
   padding-bottom: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .contianer--lista--link {
+    padding-top: 5%;
+    height: 1rem;
+  }
+  .lista--link {
+    font-size: 0.8rem;
+    margin: 0% 2%;
+  }
+
+  .h3--redes {
+    margin-top: 10%;
+    font-size: 1rem;
+  }
+  #img--redes {
+    width: 3vw;
+    height: 3vh;
+  }
+
+  #img--logo--rodape {
+    width: 40%;
+  }
+  .rodape--texto {
+    font-size: 1rem;
+  }
+
+  .ultimo--texto {
+    font-size: 1rem;
+  }
 }
