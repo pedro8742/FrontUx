@@ -230,6 +230,7 @@
   }
   .header-container .containerBaixo .inner1 .lines .menuMobile ul {
     position: absolute;
+    z-index: 9999;
     width: 340px;
     padding-top: 10px;
     padding-left: 10px;
