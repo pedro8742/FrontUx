@@ -54,7 +54,6 @@
   display: flex;
   justify-content: end;
   align-items: center;
-
 }
 .containerCima .header-inner2 .minhaConta {
   position: relative;
@@ -64,7 +63,7 @@
   height: 34px;
 }
 .inner2 button a {
-color: black;
+  color: black;
 }
 .containerCima .header-inner2 .minhaConta i {
   margin-left: 0;
@@ -196,7 +195,9 @@ color: black;
   padding: 5px;
   border-radius: 3px;
 }
-
+.header-container .containerBaixo .inner1 .lines .menuMobile {
+  display: none;
+}
 @media screen and (max-width: 840px) {
   .header-container {
     flex-direction: column;
@@ -234,7 +235,7 @@ color: black;
   .header-container .containerBaixo .inner1 .lines .menuMobile ul li a {
     display: block;
     color: #252525;
-    background-color: #fff;
+    text-align: center;
     padding: 5px 10px;
   }
   .header-container .containerBaixo .inner1 .lines .menuMobile ul li:hover {
@@ -248,14 +249,12 @@ color: black;
     width: 200px;
     height: 30px;
     margin: 0 20px;
-  
-}
-.containerCima .header-inner1 .pesquisa input {
-  width: 100px;
-}
-.logo img{
-  width:  70%;
-  margin-left: 5%;
-
-}
+  }
+  .containerCima .header-inner1 .pesquisa input {
+    width: 100px;
+  }
+  .logo img {
+    width: 70%;
+    margin-left: 5%;
+  }
 }
