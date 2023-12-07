@@ -54,6 +54,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
+
 }
 .containerCima .header-inner2 .minhaConta {
   position: relative;
@@ -61,6 +62,9 @@
   margin-right: 15px;
   width: 90px;
   height: 34px;
+}
+.inner2 button a {
+color: black;
 }
 .containerCima .header-inner2 .minhaConta i {
   margin-left: 0;
@@ -240,4 +244,18 @@
   .header-container .containerBaixo .inner1 .lines .menuMobile:hover ul {
     display: block;
   }
+  .containerCima .header-inner1 .pesquisa {
+    width: 200px;
+    height: 30px;
+    margin: 0 20px;
+  
+}
+.containerCima .header-inner1 .pesquisa input {
+  width: 100px;
+}
+.logo img{
+  width:  70%;
+  margin-left: 5%;
+
+}
 }
