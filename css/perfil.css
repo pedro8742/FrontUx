@@ -1,0 +1,100 @@
+.cont-perfil{
+    display:inline-grid;
+    grid-template-columns:40% 60%;
+    text-align: justify;
+    width: 100%;
+    height: 50vh;
+    
+}
+.box-perfil{
+    margin: 20px;
+    height: 100%;
+}
+.perfil {
+margin-left:40px ;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+}
+
+.perfil img {
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.perfil h1 {
+    padding-top: 6%;
+    padding-left: 2%;
+    width: 100%;
+    text-align: start;
+
+}
+.perfil-link{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 10px;  
+}
+.perfil-link a{
+   color: black;
+}
+.perfil-link a :hover{
+    color: #A8D5BA;
+ }
+ .perfil-link a :active{
+    color: #FFE794;
+ }
+
+
+
+ .cont-pedidos{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 20px;
+ }
+ .pedidos-img{
+
+ }
+ .pedidos-texto{
+    padding-top: 15%;
+   
+    text-align: center;
+ }
+ .pedidos-texto h2{
+    color: #A8D5BA  ;
+ }
+ .pedidos-link{
+    margin-top: 5%;
+    margin-left: 10%;
+ }
+ .pedidos-link a{
+    display: block;
+    color: black;
+    text-align: center;
+    background-color: #A8D5BA;
+    width: 200px;
+    height: 40px;
+    margin: 5%;
+    gap: 20px;
+    border-radius: 5px;
+    padding-top: 5%;
+
+
+ }
+ @media screen and (max-width: 1200px) {
+   .cont-perfil{
+      display:inline-grid;
+      grid-template-columns:auto;
+      text-align: justify;
+      width: 100%;
+      height: 100vh;
+      
+  }
+ }
