@@ -1,0 +1,225 @@
+.login {
+    display: flex;
+    width: 100%;
+}
+
+.loginBox {
+    width: 50%;
+    height: 75vh;
+    margin: 3%;
+    display: block;
+    color: white;
+    background-color: #87CEEB;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.loginBox h2 {
+    font-size: 2.5rem;
+    margin-top: 3%;
+    color: black;
+}
+
+.loginBox form div {
+    margin-top: 10%;
+
+}
+
+.label {
+    display: flex;
+    text-align: justify;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 500;
+    padding-left: 10%;
+}
+
+.loginBox form div input {
+    width: 70%;
+    height: 4.5vh;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1rem;
+    padding-left: 10px;
+    opacity: 90%;
+
+
+}
+
+.loginBox form div a {
+    color: black;
+    padding: 1% 35%;
+    background-color: #A8D5BA;
+    border-radius: 10px;
+    font-size: 1.7rem;
+}
+
+.promo {
+    width: 50%;
+    margin: 5% 3% 3% 3%;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+#entrarPromo {
+    color: black;
+    width: 100%;
+    padding: 1% 35%;
+    background-color: #A8D5BA;
+    border-radius: 10px;
+
+
+}
+
+#span1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #F0000a;
+
+}
+
+#span2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1BCD0C;
+}
+
+.trocaSenha {
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    .login {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+ 
+    }
+
+    .loginBox {
+        width: 80%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .loginBox h2 {
+        font-size: 1.5rem;
+        padding-bottom: 10%;
+    }
+
+    .label {
+        font-size: 1rem;
+        padding-left: 15%;
+       
+    }
+
+    .loginBox form div input {
+        width: 70%;
+        height: 4.5vh;
+        font-size: 0.7rem;
+    }
+
+    .loginBox form div a {
+        padding: 1% 30%;
+        font-size: 1rem;
+    }
+
+    .promo {
+        width: 50%;
+        font-size: 1rem;
+
+    }
+
+    #entrarPromo {
+        width: 100%;
+        padding: 2% 40%;
+
+    }
+
+    #span1 {
+        font-size: 1.5rem;
+    }
+
+    #span2 {
+        font-size: 1.5rem;
+    }
+
+    .trocaSenha {
+        font-size: 0.7rem;
+    }
+
+  }
+@media screen and (max-width: 600px) {
+
+    .login {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loginBox {
+        width: 80%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .loginBox h2 {
+        font-size: 1.5rem;
+        padding-bottom: 10%;
+    }
+
+    .label {
+        font-size: 1rem;
+        padding-left: 15%;
+       
+    }
+
+    .loginBox form div input {
+        width: 70%;
+        height: 4.5vh;
+        font-size: 0.7rem;
+    }
+
+    .loginBox form div a {
+        padding: 1% 30%;
+        font-size: 1rem;
+    }
+
+    .promo {
+        width: 50%;
+        font-size: 1rem;
+
+    }
+
+    #entrarPromo {
+        width: 100%;
+        padding: 2% 40%;
+
+    }
+
+    #span1 {
+        font-size: 1.5rem;
+    }
+
+    #span2 {
+        font-size: 1.5rem;
+    }
+
+    .trocaSenha {
+        font-size: 0.7rem;
+    }
+
+}
