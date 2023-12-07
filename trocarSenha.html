@@ -1,172 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webpage Multi-Language</title>
-    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header-container">
-          <div class="containerCima">
-            <div class="header-inner1">
-              <a href="./index.html" class="logo"
-                ><img src="./img/logo/logo.png" alt=""
-              /></a>
-              <div class="pesquisa">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="" />
-              </div>
+      <div class="header-container">
+        <div class="containerCima">
+          <div class="header-inner1">
+            <a href="./index.html" class="logo"
+              ><img src="./img/logo/logo.png" alt=""
+            /></a>
+            <div class="pesquisa">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="" />
             </div>
-            <div class="header-inner2">
-              <div class="minhaConta">
-                <button>
-                  <i class="fa-regular fa-user"></i
-                  ><a href="./perfilUser.html">Minha Conta</a>
-                </button>
-              </div>
-              <div class="darkTheme">
-                <button id="darkMode">
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                </button>
-              </div>
-              <div class="fontPlus">
-                <button id="fontButton"><i class="fa-solid fa-font"></i></button>
-              </div>
-              <div class="language">
-                <button><div class="language-selected">pt-BR</div></button>
+          </div>
+          <div class="header-inner2">
+            <div class="minhaConta">
+              <button>
+                <i class="fa-regular fa-user"></i
+                ><a href="./perfilUser.html">Minha Conta</a>
+              </button>
+            </div>
+            <div class="darkTheme">
+              <button id="darkMode">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+              </button>
+            </div>
+            <div class="fontPlus">
+              <button id="fontButton"><i class="fa-solid fa-font"></i></button>
+            </div>
+            <div class="language">
+              <button><div class="language-selected">pt-BR</div></button>
+              <ul>
+                <li><a href="#" class="br">Português</a></li>
+                <!-- pt-BR -->
+                <li><a href="#" class="en">English</a></li>
+                <!-- en-US -->
+              </ul>
+            </div>
+            <div class="carrinho">
+              <button><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="containerBaixo">
+          <div class="inner1">
+            <div class="lines">
+              <button id="toggleButton">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="menuMobile" id="menu">
                 <ul>
-                  <li><a href="#" class="br">Português</a></li>
-                  <!-- pt-BR -->
-                  <li><a href="#" class="en">English</a></li>
-                  <!-- en-US -->
+                  <li><a href="./produtos.html">Peixes</a></li>
+                  <li><a href="./produtos.html">Roedores</a></li>
+                  <li><a href="./produtos.html">Pássaros</a></li>
+                  <li><a href="./produtos.html">Cães</a></li>
+                  <li><a href="./produtos.html">Gatos</a></li>
                 </ul>
               </div>
-              <div class="carrinho">
-                <button><i class="fa-solid fa-cart-shopping"></i></button>
-              </div>
+            </div>
+            <div class="menuDesk">
+              <button><a href="./produtos.html">Peixes</a></button>
+              <button><a href="./produtos.html">Roedores</a></button>
+              <button><a href="./produtos.html">Pássaros</a></button>
+              <button><a href="./produtos.html">Cães</a></button>
+              <button><a href="./produtos.html">Gatos</a></button>
             </div>
           </div>
-          <div class="containerBaixo">
-            <div class="inner1">
-              <div class="lines">
-                <button id="toggleButton">
-                  <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="menuMobile" id="menu">
-                  <ul>
-                    <li><a href="produtos.html">Peixes</a></li>
-                    <li><a href="produtos.html">Roedores</a></li>
-                    <li><a href="produtos.html">Pássaros</a></li>
-                    <li><a href="produtos.html">Cães</a></li>
-                    <li><a href="produtos.html">Gatos</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="menuDesk">
-                <button><a href="produtos.html">Peixes</a></button>
-                <button><a href="produtos.html">Roedores</a></button>
-                <button><a href="produtos.html">Pássaros</a></button>
-                <button><a href="produtos.html">Cães</a></button>
-                <button><a href="produtos.html">Gatos</a></button>
-              </div>
-            </div>
-            <div class="inner2">
-              <button><a href="quemSomos.html">Quem Somos</a></button>
-              <button><a href="serviços.html">Serviços</a></button>
-              <button><a href="faleConosco.html">Fale Conosco</a></button>
-            </div>
+          <div class="inner2">
+            <button><a href="./quemSomos.html">Quem Somos</a></button>
+            <button><a href="./serviços.html">Serviços</a></button>
+            <button><a href="./faleConosco.html">Fale Conosco</a></button>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
     <main>
-        <section class="loginT">
-            <div class="loginBoxT">
-                <div>
-                    <h2>Trocar Sua Senha</h2>
-                </div>
+      <section class="loginT">
+        <div class="loginBoxT">
+          <div>
+            <h2>Trocar Sua Senha</h2>
+          </div>
 
-                <form>
-                    <div class="user-box">
-                        <label class="label">Senha Antiga</label><br>
-                        <br>
-                        <input type="text" placeholder="Digite Sua Antiga Senha" name="" required="">
-                    </div>
-                    <div class="user-box">
-                        <label class="label">Nova Senha</label><br>
-                        <br>
-                        <input type="password" placeholder="Digite Sua  Nova Senha" name="" required="">
-                    </div>
-                    <div class="user-box">
-                        <label class="label">Nova Senha</label><br>
-                        <br>
-                        <input type="password" placeholder="Digite Sua Nova Senha" name="" required="">
-                    </div>
-                    <div>
-                        <br>
-                        <br>
-                        <br>
-                        
-                        <a href="#">Entrar</a>
-
-                    </div>
-                </form>
-                
+          <form>
+            <div class="user-box">
+              <label class="label">Senha Antiga</label><br />
+              <br />
+              <input
+                type="text"
+                placeholder="Digite Sua Antiga Senha"
+                name=""
+                required=""
+              />
             </div>
-            <div class="promo">
-                <h1>Crie sua Conta na <br>
-                    Pet Companion<br>
-                    e Ganhe<span id="span1"> 10%</span> de Desconto<br>
-                    na sua <span id="span2"> Primeira Compra.</span><br></h1>
-                <br>
-                <br>
-                <br>
-                <br>
-                <a id="entrarPromo" href="#">Entrar</a>
-
+            <div class="user-box">
+              <label class="label">Nova Senha</label><br />
+              <br />
+              <input
+                type="password"
+                placeholder="Digite Sua  Nova Senha"
+                name=""
+                required=""
+              />
             </div>
-        </section>
+            <div class="user-box">
+              <label class="label">Nova Senha</label><br />
+              <br />
+              <input
+                type="password"
+                placeholder="Digite Sua Nova Senha"
+                name=""
+                required=""
+              />
+            </div>
+            <div>
+              <br />
+              <br />
+              <br />
+
+              <a href="#">Entrar</a>
+            </div>
+          </form>
+        </div>
+        <div class="promo">
+          <h1>
+            Crie sua Conta na <br />
+            Pet Companion<br />
+            e Ganhe<span id="span1"> 10%</span> de Desconto<br />
+            na sua <span id="span2"> Primeira Compra.</span><br />
+          </h1>
+          <br />
+          <br />
+          <br />
+          <br />
+          <a id="entrarPromo" href="#">Entrar</a>
+        </div>
+      </section>
     </main>
     <footer class="contianer--rodape">
-        <section class="contianer--lista--link">
-            <div class="lista">
-                <a class="lista--link" href="./index.html">Home</a>
-                <a class="lista--link" href="./quemSomos.html">Quem Somos</a>
-                <a class="lista--link" href="./serviços.html">Serviços</a>
-                <a class="lista--link" href="./faleConosco.html">Fale Conosco</a>
-                <a class="lista--link" href="./produtos.html">Produtos</a>
-            </div>
-        </section>
-        <div class="redes">
-            <div>
-                <h3 class="h3--redes">Redes Sociais</h3>
-            </div>
-            <a href="/"><img id="img--redes" src="img/icon/facebook (1).png" alt="Facebook" /></a>
-            <a href="/"><img id="img--redes" src="img/icon/instagram.png" alt="Instagram" /></a>
-            <a href="/"><img id="img--redes" src="img/icon/youtube.png" alt="Youtube" /></a>
+      <section class="contianer--lista--link">
+        <div class="lista">
+          <a class="lista--link" href="./index.html">Home</a>
+          <a class="lista--link" href="./quemSomos.html">Quem Somos</a>
+          <a class="lista--link" href="./serviços.html">Serviços</a>
+          <a class="lista--link" href="./faleConosco.html">Fale Conosco</a>
+          <a class="lista--link" href="./produtos.html">Produtos</a>
         </div>
-        <div class="rodape--texto">
-            <p>
-                Pet Companion pensando sempre em entregar o melhor para Seu Bichinho,
-                na melhor condição para você.
-            </p>
+      </section>
+      <div class="redes">
+        <div>
+          <h3 class="h3--redes">Redes Sociais</h3>
         </div>
+        <a href="/"
+          ><img id="img--redes" src="img/icon/facebook (1).png" alt="Facebook"
+        /></a>
+        <a href="/"
+          ><img id="img--redes" src="img/icon/instagram.png" alt="Instagram"
+        /></a>
+        <a href="/"
+          ><img id="img--redes" src="img/icon/youtube.png" alt="Youtube"
+        /></a>
+      </div>
+      <div class="rodape--texto">
+        <p>
+          Pet Companion pensando sempre em entregar o melhor para Seu Bichinho,
+          na melhor condição para você.
+        </p>
+      </div>
 
-        <div class="ultimo--texto">
-            <img id="img--logo--rodape" src="./img/logo/logoBranca.svg" alt="" />
-            <p>O Melhor para seu Pet.</p>
-            <p>Copyright© 2023 Pet Companion S/A</p>
-            <p>CNPJ: 00.000.000/0001-00</p>
-        </div>
+      <div class="ultimo--texto">
+        <img id="img--logo--rodape" src="./img/logo/logoBranca.svg" alt="" />
+        <p>O Melhor para seu Pet.</p>
+        <p>Copyright© 2023 Pet Companion S/A</p>
+        <p>CNPJ: 00.000.000/0001-00</p>
+      </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" type="text/javascript" ,></script>
+    <script
+      src="https://kit.fontawesome.com/107207eb7e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      type="text/javascript"
+      ,
+    ></script>
     <script src="js/translate.js"></script>
-</body>
-
+    <script src="./js/slider.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
 </html>
