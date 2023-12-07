@@ -18,3 +18,70 @@ border-radius: 7px;
     padding-left: 5%;
     text-align:start;
 }
+/* Adapte os estilos conforme necessário */
+@media screen and (max-width: 600px) {
+    .duvidas{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .duvidas h1{
+        font-size: 1.5rem;
+    }
+    .duvidas h2{
+        font-size: 1.2rem;
+    }
+    .duvidas h3{
+        font-size: 1rem;
+    }
+    .duvidas div{
+    margin-bottom: 2%;
+    }
+    .duvidas a{
+
+    margin: 1%;
+    padding: 7px 15px;
+    border-radius: 7px;
+   
+    }
+    .perguntas{
+        margin-top: 10%;
+        font-size: 0.9rem;
+        padding-left: 5%;
+        text-align:start;
+    }
+  
+  }
+  
+  @media screen and (min-width: 601px)and (max-width: 1000px) {
+    .duvidas{
+        margin-top: 5%;
+        margin-bottom: 50%;
+    }
+    .duvidas h1{
+        font-size: 1.5rem;
+    }
+    .duvidas h2{
+        font-size: 1.2rem;
+    }
+    .duvidas h3{
+        font-size: 1rem;
+    }
+    .duvidas div{
+    margin-bottom: 2%;
+    }
+    .duvidas a{
+
+    margin: 1%;
+    padding: 7px 15px;
+    border-radius: 7px;
+   
+    }
+    .perguntas{
+        margin-top: 10%;
+        font-size: 0.9rem;
+        padding-left: 5%;
+        text-align:start;
+    }
+  
+  }
+  

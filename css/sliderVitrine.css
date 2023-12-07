@@ -189,6 +189,7 @@
 
     .container--vitrine {
         height: 100%;
+        margin-bottom: 10%;
     }
 
     #titulo-categorias {
@@ -212,6 +213,6 @@
 
     .img-vitrine {
         width: 20vw;
-        height: 15vh;
+        height: 30vh;
     }
 }
