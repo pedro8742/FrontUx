@@ -2,7 +2,7 @@
 $(function () {
   $(".br").click(function () {
     //cabeçalho
-    $(".nav-menu").children().eq(0).text("Soluções");
+    $(".header-inner2").children().eq(0).text("Soluções");
     $(".nav-menu").children().eq(1).text("Comunidade");
     $(".nav-menu").children().eq(2).text("Comprar");
     $(".nav-menu").children().eq(3).text("Entrar");

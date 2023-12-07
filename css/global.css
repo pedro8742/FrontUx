@@ -2,6 +2,7 @@
 body {
   font-family: "Inter", sans-serif;
   color: #333;
+  transition: font-size 0.5s;
 }
 
 * {
@@ -12,4 +13,11 @@ body {
 
 a {
   text-decoration: none;
+}
+.font-large {
+  font-size: 1.2rem !important;
+}
+.dark-mode {
+  background-color: #333333; /* Cor de fundo escura quando a classe dark-mode é aplicada */
+  color: #ffffff; /* Cor de texto clara quando a classe dark-mode é aplicada */
 }
