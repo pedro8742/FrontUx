@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webpage Multi-Language</title>
+    <title>Pet Companion</title>
     <link
       href="https://fonts.googleapis.com/css?family=Inter"
       rel="stylesheet"
@@ -14,22 +14,68 @@
   <body>
     <header class="header">
       <div class="header-container">
-        <a href="#" class="logo">Multi-Language</a>
-        <nav class="nav-menu">
-          <a href="#">Soluções</a>
-          <a href="#">Comunidade</a>
-          <a href="#">Comprar</a>
-          <a href="#">Entrar</a>
-          <div class="language">
-            <div class="language-selected">pt-BR</div>
-            <ul>
-              <li><a href="#" class="br">Português</a></li>
-              <!-- pt-BR -->
-              <li><a href="#" class="en">English</a></li>
-              <!-- en-US -->
-            </ul>
+        <div class="containerCima">
+          <div class="header-inner1">
+            <a href="#" class="logo"
+              ><img src="./img/logo/logo.png" alt=""
+            /></a>
+            <div class="pesquisa">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="" />
+            </div>
           </div>
-        </nav>
+          <div class="header-inner2">
+            <div class="minhaConta">
+              <button><i class="fa-regular fa-user"></i>Minha Conta</button>
+            </div>
+            <div class="darkTheme">
+              <button><i class="fa-solid fa-circle-half-stroke"></i></button>
+            </div>
+            <div class="fontPlus">
+              <button><i class="fa-solid fa-font"></i></button>
+            </div>
+            <div class="language">
+              <button><div class="language-selected">pt-BR</div></button>
+              <ul>
+                <li><a href="#" class="br">Português</a></li>
+                <!-- pt-BR -->
+                <li><a href="#" class="en">English</a></li>
+                <!-- en-US -->
+              </ul>
+            </div>
+            <div class="carrinho">
+              <button><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="containerBaixo">
+          <div class="inner1">
+            <div class="lines">
+              <button><i class="fa-solid fa-bars"></i></button>
+              <div class="menuMobile">
+                <ul>
+                  <li>Peixes</li>
+                  <li>Roedores</li>
+                  <li>Pássaros</li>
+                  <li>Cães</li>
+                  <li>Gatos</li>
+                </ul>
+              </div>
+            </div>
+            <div class="menuDesk">
+              <button>Peixes</button>
+              <button>Roedores</button>
+              <button>Pássaros</button>
+              <button>Cães</button>
+              <button>Gatos</button>
+            </div>
+          </div>
+          <div class="inner2">
+            <button>Quem Somos</button>
+            <button>Serviços</button>
+            <button>Fale Conosco</button>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -59,13 +105,15 @@
     </section>
     <main>
       <section class="container--sliders">
-       <div class="slider">
-          <img id="img1"
+        <div class="slider">
+          <img
+            id="img1"
             class="selected"
-            src="./img/slider/Pet companion (3).png"alt=""/>
+            src="./img/slider/Pet companion (3).png"
+            alt=""
+          />
           <img id="img2" src="./img/slider/Pet companion (4).png" alt="" />
           <img id="img3" src="./img/slider/Petcompanion (1).png" alt="" />
-          
         </div>
       </section>
       <section class="container--vitrine">
@@ -134,7 +182,7 @@
         </div>
       </section>
     </main>
-    
+
     <footer class="contianer--rodape">
       <section class="contianer--lista--link">
         <div class="lista">
@@ -173,7 +221,10 @@
         <p>CNPJ: 00.000.000/0001-00</p>
       </div>
     </footer>
-
+    <script
+      src="https://kit.fontawesome.com/107207eb7e.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"
       type="text/javascript"
