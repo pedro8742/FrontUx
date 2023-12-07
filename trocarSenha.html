@@ -13,49 +13,77 @@
 <body>
     <header class="header">
         <div class="header-container">
-            <a href="#" class="logo">Multi-Language</a>
-            <nav class="nav-menu">
-                <a href="#">Soluções</a>
-                <a href="#">Comunidade</a>
-                <a href="#">Comprar</a>
-                <a href="#">Entrar</a>
-                <div class="language">
-                    <div class="language-selected">pt-BR</div>
-                    <ul>
-                        <li><a href="#" class="br">Português</a></li>
-                        <!-- pt-BR -->
-                        <li><a href="#" class="en">English</a></li>
-                        <!-- en-US -->
-                    </ul>
+          <div class="containerCima">
+            <div class="header-inner1">
+              <a href="./index.html" class="logo"
+                ><img src="./img/logo/logo.png" alt=""
+              /></a>
+              <div class="pesquisa">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="" />
+              </div>
+            </div>
+            <div class="header-inner2">
+              <div class="minhaConta">
+                <button>
+                  <i class="fa-regular fa-user"></i
+                  ><a href="./perfilUser.html">Minha Conta</a>
+                </button>
+              </div>
+              <div class="darkTheme">
+                <button id="darkMode">
+                  <i class="fa-solid fa-circle-half-stroke"></i>
+                </button>
+              </div>
+              <div class="fontPlus">
+                <button id="fontButton"><i class="fa-solid fa-font"></i></button>
+              </div>
+              <div class="language">
+                <button><div class="language-selected">pt-BR</div></button>
+                <ul>
+                  <li><a href="#" class="br">Português</a></li>
+                  <!-- pt-BR -->
+                  <li><a href="#" class="en">English</a></li>
+                  <!-- en-US -->
+                </ul>
+              </div>
+              <div class="carrinho">
+                <button><i class="fa-solid fa-cart-shopping"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="containerBaixo">
+            <div class="inner1">
+              <div class="lines">
+                <button id="toggleButton">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="menuMobile" id="menu">
+                  <ul>
+                    <li><a href="produtos.html">Peixes</a></li>
+                    <li><a href="produtos.html">Roedores</a></li>
+                    <li><a href="produtos.html">Pássaros</a></li>
+                    <li><a href="produtos.html">Cães</a></li>
+                    <li><a href="produtos.html">Gatos</a></li>
+                  </ul>
                 </div>
-            </nav>
+              </div>
+              <div class="menuDesk">
+                <button><a href="produtos.html">Peixes</a></button>
+                <button><a href="produtos.html">Roedores</a></button>
+                <button><a href="produtos.html">Pássaros</a></button>
+                <button><a href="produtos.html">Cães</a></button>
+                <button><a href="produtos.html">Gatos</a></button>
+              </div>
+            </div>
+            <div class="inner2">
+              <button><a href="quemSomos.html">Quem Somos</a></button>
+              <button><a href="serviços.html">Serviços</a></button>
+              <button><a href="faleConosco.html">Fale Conosco</a></button>
+            </div>
+          </div>
         </div>
-    </header>
-
-    <section class="section">
-        <h1 id="title">Uma Webpage simples com opção de Milti-language</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
-            neque, quasi voluptas laboriosam dolores fuga possimus hic ullam itaque
-            debitis quaerat, ratione nihil optio reiciendis explicabo vitae aperiam
-            quibusdam error.
-        </p>
-    </section>
-
-    <section class="about">
-        <div class="about-container">
-            <ul>
-                <li><a href="#">Soluções</a></li>
-                <li><a href="#">Visão Geral</a></li>
-                <li><a href="#">Pagamentos</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Suporte</a></li>
-                <li><a href="#">Central de Ajuda</a></li>
-                <li><a href="#">Termos e Políticas</a></li>
-            </ul>
-        </div>
-    </section>
+      </header>
     <main>
         <section class="loginT">
             <div class="loginBoxT">
