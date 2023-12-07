@@ -73,6 +73,10 @@
   background-color: #a8d5ba;
   margin-left: 0;
 }
+.containerCima .header-inner2 .minhaConta button a {
+  text-decoration: none;
+  color: black;
+}
 .containerCima .header-inner2 .darkTheme {
   position: relative;
   margin-left: 0;
@@ -184,6 +188,7 @@
   height: 70px;
   display: flex;
   background-color: #87ceeb;
+
   justify-content: space-between;
   align-items: center;
 }
@@ -194,6 +199,9 @@
   background-color: #fff;
   padding: 5px;
   border-radius: 3px;
+}
+.header-container .containerBaixo .inner1 .menuDesk button a {
+  color: black;
 }
 .header-container .containerBaixo .inner1 .lines .menuMobile {
   display: none;
